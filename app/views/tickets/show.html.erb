@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Car:</strong>
+  <%= @ticket.car %>
+</p>
+
+<p>
+  <strong>Date parking start:</strong>
+  <%= @ticket.date_parking_start %>
+</p>
+
+<p>
+  <strong>Date parking end:</strong>
+  <%= @ticket.date_parking_end %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @ticket.total %>
+</p>
+
+<p>
+  <strong>Payed:</strong>
+  <%= @ticket.payed %>
+</p>
+
+<%= link_to 'Edit', edit_ticket_path(@ticket) %> |
+<%= link_to 'Back', tickets_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  car: one
+  date_parking_start: 2020-03-18
+  date_parking_end: 2020-03-18
+  total: 1
+  payed: false
+
+two:
+  car: two
+  date_parking_start: 2020-03-18
+  date_parking_end: 2020-03-18
+  total: 1
+  payed: false
